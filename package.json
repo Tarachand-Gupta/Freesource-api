@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:lambda": "netlify-lambda build src",
+    "build": "npm build",
     "startx": "netlify-lambda serve",
     "start": "nodemon server.js",
     "client": "cd ../.. && npm start",
